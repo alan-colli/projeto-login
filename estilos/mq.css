@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+  html,
+  body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 42));
+  }
+
+  main,
+  section {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+  }
+  #imagem img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+  #formulario {
+    padding: 10px;
+  }
+}
