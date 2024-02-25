@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(7, 7, 109); */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 5, 57);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(212, 202, 202);
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+#formulario h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
